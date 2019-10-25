@@ -54,5 +54,7 @@ ENV ANDROID_SDK_ROOT="/usr/local/android-sdk-linux"
 ENV PATH=$ANDROID_SDK_ROOT:$PATH
 ENV PATH=$ANDROID_SDK_ROOT/tools:$ANDROID_SDK_ROOT/platform-tools:$PATH
 
+RUN yes n | cocos
+
 USER user
 
